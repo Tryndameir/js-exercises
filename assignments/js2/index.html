@@ -5,7 +5,31 @@
 </head>
 <body>
     <script>
-        
+        let answer = parseInt(prompt("Please enter the number you would like to fizzbuzz up to: "));
+        let i = 1;
+        for (i; i <= answer; i++) 
+        {
+    
+            if (i % 3 == 0)
+            {
+                console.log("fizz");
+            }
+
+            else if (i % 5 == 0)
+            {
+                console.log("buzz");
+            }
+
+            else if ((i % 5 == 0) && (i % 3 == 0))
+            {
+                console.log("fizzbuzz");
+            }
+            else {console.log(i)
+            }
+            
+        }
+
+
     </script>
 </body>
 
